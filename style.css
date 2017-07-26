@@ -1,0 +1,130 @@
+body {
+  background-color: #F7F7F7 ;
+  font-family: 'Arial', sans-serif;
+  color : #333333;
+  font-size: 18px;
+}
+
+.pp img {
+  border-radius: 50px;
+  width: 100px;
+  margin-right: 20px;
+  margin-left: 30px
+}
+
+h1, h2, h3 {
+  font-family: 'Caveat', cursive;
+}
+
+h1 {
+  font-size: 38px;
+  color: Black;
+}
+
+h2 {
+  font-size: 30px;
+  color: Black;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+a {
+  text-decoration: none;
+  color: #290202;
+}
+
+a:hover {
+  color: #847a7a;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 10px auto; /* This automatically sets left/right margins */
+}
+
+.header {
+  background-color: #fffefe;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px RGBA(0, 0, 0, 0.1);
+  margin: 5px;
+}
+
+.header h1, h2 {
+  line-height: 15px;
+}
+
+.header h2 {
+  margin-left: 70px;
+}
+
+.card {
+  background-color: #fffefe;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px RGBA(0, 0, 0, 0.1);
+  margin: 5px;
+  padding-right: 10px;
+}
+
+.description {
+  background-color: #fffefe;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px RGBA(0, 0, 0, 0.1);
+  margin: 5px;
+  padding: 10px;
+  text-align: center
+}
+
+.card img {
+  width: 150px;
+}
+
+.photo {
+  margin: 5px;
+}
+
+.btn-red{
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+  line-height: 50px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.btn-red:hover{
+  background-color: #C61414;
+  color: white;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
